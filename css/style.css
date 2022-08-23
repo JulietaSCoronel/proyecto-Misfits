@@ -286,6 +286,9 @@ main{
     text-align: center;
     margin-bottom: 25px;
 }
+.formulario-contacto{
+    background-image: linear-gradient(to right , #DBF227,#D6D58E);
+}
 /* ------------------------------------FOOTER------------------------------------- */
 
 footer{
