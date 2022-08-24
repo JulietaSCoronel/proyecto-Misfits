@@ -130,14 +130,8 @@ main{
                             ;
 }
 .contenedor-entrenadores{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows:1fr 1fr 1fr 1fr ;
-    grid-template-areas: "box1"
-                        "box2"
-                        "box3"
-                        "box4";
-   
+   display: flex;
+   flex-direction: column;
 
 }
 
@@ -426,4 +420,35 @@ footer{
     align-items: center;
     justify-items: center;
     margin-top: 25px;
+}
+/* -------------------------------------- REGISTRATE ----------------------------------- */
+.registrate{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.campos-formularios{
+    width: 400px;
+    padding: 15px;
+    background-color: #D6D58E;
+    margin-bottom: 10px;
+    border: 1px solid #042940;
+}
+.titulo-formulario-registro{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.formulario-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botonFormulario{
+    width: 200px;
+    padding: 15px;
+    margin-bottom: 15px;
 }
