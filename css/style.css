@@ -24,3 +24,10 @@ height: auto;
 #section{
  
 }
+@media only screen and (max-width:500px) {
+    .fotos-galeria{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
