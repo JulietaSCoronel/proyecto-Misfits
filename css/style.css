@@ -18,7 +18,9 @@ footer {
     justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */
-
+a {
+  text-decoration: none;
+}
 .letra-monserrat{
   font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +30,21 @@ footer {
 li{
   font-family: 'Montserrat', sans-serif;
 }
+.btn-blue{
+  background-color: #DBF227;
+  transition: all 0.2s ease-out;
+  border: none;
+  padding: 15px;
+}
+input:hover{
+  background-color: #D6D58E;
+  
+}
+.btn-blue:hover{
+  background-color: aqua;
+  scale: (0.8);
+}
+
 /* ============================ HEADER ================================== */
 header{
   
@@ -35,7 +52,7 @@ header{
 }
 /* ================================MAIN =================================== */
 main{
-  background-color: #D6D58E;
+  background-image: linear-gradient(to bottom, #DBF227, #D6D58E);
 }
 #section{
   background-color: #9FC131;
