@@ -1,33 +1,46 @@
-
+/* ==================   FUENTES     ===================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 
 
-
-
-
-
-
-body{
-height: auto;
-    width: 100vw;
-}
-#header{
-   
-}
-#main{
-   
-}
-#footer{
-    height: 10vh;
+body {
+  height: auto;
+  width: 100vw;
 }
 
+footer {
+  height: 30vh;
+}
+
+@media only screen and (max-width: 500px) {
+  .fotos-galeria {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
+
+.letra-monserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+.letra-open{
+  font-family: 'Open Sans', sans-serif;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+/* ============================ HEADER ================================== */
+header{
+  
+  background-color: #005C53;
+}
+/* ================================MAIN =================================== */
+main{
+  background-color: #D6D58E;
+}
 #section{
- 
+  background-color: #9FC131;
 }
-@media only screen and (max-width:500px) {
-    .fotos-galeria{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+/* ============================ FOOTER ================================= */
+#footer {
+  background-color: #005C53;
 }
