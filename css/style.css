@@ -1,63 +1,26 @@
-/* ==================   FUENTES     ===================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+header {
+  background-color: #005C53; }
+  header nav li {
+    font-family: "Montserrat", sans-serif; }
 
+main {
+  background-color: #D6D58E; }
+  main div h1 {
+    font-family: "Montserrat", sans-serif; }
 
-body {
-  height: auto;
-  width: 100vw;
-}
+section {
+  background-color: #DBF227; }
 
 footer {
-  height: 30vh;
-}
+  background-color: #005C53;
+  font-family: "Open Sans", sans-serif; }
+  footer h2 {
+    font-family: "Montserrat", sans-serif; }
 
-@media only screen and (max-width: 500px) {
-  .fotos-galeria {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-}/*# sourceMappingURL=style.css.map */
+button {
+  border: 1px solid #042940;
+  background-color: whitesmoke; }
+
 a {
-  text-decoration: none;
-}
-.letra-monserrat{
-  font-family: 'Montserrat', sans-serif;
-}
-.letra-open{
-  font-family: 'Open Sans', sans-serif;
-}
-li{
-  font-family: 'Montserrat', sans-serif;
-}
-.btn-blue{
-  background-color: #DBF227;
-  transition: all 0.2s ease-out;
-  border: none;
-  padding: 15px;
-}
-input:hover{
-  background-color: #D6D58E;
-  
-}
-.btn-blue:hover{
-  background-color: aqua;
-  scale: (0.8);
-}
-
-/* ============================ HEADER ================================== */
-header{
-  
-  background-color: #005C53;
-}
-/* ================================MAIN =================================== */
-main{
-  background-image: linear-gradient(to bottom, #DBF227, #D6D58E);
-}
-#section{
-  background-color: #9FC131;
-}
-/* ============================ FOOTER ================================= */
-#footer {
-  background-color: #005C53;
-}
+  color: black;
+  text-decoration: none; }

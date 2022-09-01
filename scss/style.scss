@@ -1,24 +1,14 @@
-body{
-    height: auto;
-        width: 100vw;
-    }
-    #header{
-       
-    }
-    #main{
-       
-    }
-    #footer{
-        height: 10vh;
-    }
-    
-    #section{
-     
-    }
-    @media only screen and (max-width:500px) {
-        .fotos-galeria{
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    }
+@import "./variables";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+button{
+    border: 1px solid $color-azul-oscuro;
+    background-color: whitesmoke;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
