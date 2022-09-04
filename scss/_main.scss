@@ -8,3 +8,12 @@ main{ background-color: $color-beige;
 section{
     background-color: $color-amarillo;
 }
+article{
+    h2{
+        font-family: $letra-monserrat;
+    }
+    img{
+        width:150px ;
+        height:200px ;
+    }
+}

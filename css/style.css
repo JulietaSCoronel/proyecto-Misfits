@@ -12,6 +12,13 @@ main {
 section {
   background-color: #DBF227; }
 
+article h2 {
+  font-family: "Montserrat", sans-serif; }
+
+article img {
+  width: 150px;
+  height: 200px; }
+
 footer {
   background-color: #005C53;
   font-family: "Open Sans", sans-serif; }
