@@ -8,9 +8,15 @@
 button{
     border: 1px solid $color-azul-oscuro;
     background-color: whitesmoke;
+    font-family: $letra-monserrat;
+    color: black;
+    padding: 15px;
 
 }
 a{
     color: black;
     text-decoration: none;
+}
+.input-mensaje{
+    height: 100px;
 }
