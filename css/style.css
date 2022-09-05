@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
 header {
-  background-color: #73242bc0; }
+  background-color: #73242bc0;
+  grid-area: header; }
   header nav li {
     font-family: "Montserrat", sans-serif;
     font-size: 1em; }
@@ -9,7 +10,8 @@ nav li:hover {
   transform: scale(1.1); }
 
 main {
-  background-color: #F2D0D0; }
+  background-color: #F2D0D0;
+  grid-area: main; }
   main div h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold; }
@@ -29,7 +31,8 @@ article {
 
 footer {
   background-color: #73242bc0;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  grid-area: footer; }
   footer h2 {
     font-family: "Montserrat", sans-serif; }
 
@@ -56,3 +59,9 @@ a {
 
 .card:hover {
   transform: scale(1.1); }
+
+.grilla-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .5 fr 1fr 1fr;
+  grid-template-areas: "header " "main " "footer "; }
