@@ -1,7 +1,14 @@
-header{background-color: $color-azul;
+header{
+    background-color: $color-bordo;
+
     nav{
         li{
             font-family: $letra-monserrat;
+            font-size: 1em;
         }
     }
+}
+
+nav li:hover{
+    transform: scale(1.1);
 }

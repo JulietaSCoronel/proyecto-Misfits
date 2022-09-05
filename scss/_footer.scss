@@ -1,9 +1,17 @@
 footer{
-    background-color: $color-azul;
+    background-color: $color-bordo;
     font-family: $letra-open;
     h2{
         font-family: $letra-monserrat;
     }
     
     
+}
+.logos-redes img{
+    width:35px ;
+    height: 35px;
+}
+
+.logos-redes img:hover{
+    transform: scale(1.2);
 }

@@ -1,19 +1,24 @@
-main{ background-color: $color-beige;
+main{ background-color: $color-rosa;
     div{
         h1{
             font-family: $letra-monserrat;
+            font-weight: bold;
         }
     }
 }
 section{
-    background-color: $color-amarillo;
+    background-color: $color-rosa-oscuro;
 }
 article{
+    background-color: white;
     h2{
         font-family: $letra-monserrat;
     }
     img{
         width:150px ;
         height:200px ;
+    }
+    img:hover{
+        transform: scale(1.2);
     }
 }
