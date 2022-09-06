@@ -24,6 +24,8 @@ main {
     background-color: white; }
     main article h2 {
       font-family: "Montserrat", sans-serif; }
+    main article p {
+      font-family: "Open Sans", sans-serif; }
     main article div img {
       width: 150px;
       height: 200px; }
@@ -33,10 +35,14 @@ img:hover {
 
 @media (min-width: 576px) and (max-width: 768px) {
   .contenedor-video {
+    display: none; }
+  .contenedor-planis img {
     display: none; } }
 
 @media (max-width: 576px) {
   .contenedor-video {
+    display: none; }
+  .contenedor-planis img {
     display: none; } }
 
 footer {
