@@ -9,6 +9,10 @@ header {
 nav li:hover {
   transform: scale(1.1); }
 
+.logo-persona {
+  width: 20px;
+  height: 20px; }
+
 main {
   background-color: #F2D0D0;
   grid-area: main; }
@@ -72,3 +76,6 @@ a {
   grid-template-columns: 1fr;
   grid-template-rows: .5 fr 1fr 1fr;
   grid-template-areas: "header " "main " "footer "; }
+
+body {
+  scroll-behavior: smooth; }
