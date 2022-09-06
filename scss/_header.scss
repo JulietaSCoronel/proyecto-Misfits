@@ -3,10 +3,16 @@ header{
     grid-area: header;
 
     nav{
-        li{
-            font-family: $letra-monserrat;
-            font-size: 1em;
+        ul{
+            li{
+                font-family: $letra-monserrat;
+                font-size: 1em;
+                a{
+                    
+                }
+            }
         }
+        
     }
 }
 

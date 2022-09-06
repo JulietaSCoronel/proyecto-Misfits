@@ -1,29 +1,48 @@
 main{ background-color: $color-rosa;
     grid-area: main;
-    div{
+        div{
         h1{
             font-family: $letra-monserrat;
-            
+       }
+    }
+    section{
+        background-color: $color-rosa-oscuro;
+        div{
+            .mapa{}
+        }
+        div{
+            form{
+                h2{}
+    
+            }
+        }
+        div{
+            button{}
         }
     }
-}
-section{
-    background-color: $color-rosa-oscuro;
-}
-article{
-    background-color: white;
-    h2{
-        font-family: $letra-monserrat;
-    }
-    img{
-        width:150px ;
-        height:200px ;
-    }
-    img:hover{
-        transform: scale(1.2);
-    }
+    article{
+        background-color: white;
+        div{
+            iframe{}
+        }
+        h2{
+            font-family: $letra-monserrat;
+        }
+        div{
+            img{
+                width:150px ;
+                height:200px ;
+            }
+        }
 }
 
+
+    
+    
+}
+img:hover{
+    transform: scale(1.2);
+}
 @media (min-width: 576px) and (max-width: 768px) { 
     .contenedor-video{display: none;} 
 

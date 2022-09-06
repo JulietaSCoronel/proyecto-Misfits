@@ -2,7 +2,7 @@
 header {
   background-color: #73242bc0;
   grid-area: header; }
-  header nav li {
+  header nav ul li {
     font-family: "Montserrat", sans-serif;
     font-size: 1em; }
 
@@ -18,19 +18,18 @@ main {
   grid-area: main; }
   main div h1 {
     font-family: "Montserrat", sans-serif; }
+  main section {
+    background-color: #D99197; }
+  main article {
+    background-color: white; }
+    main article h2 {
+      font-family: "Montserrat", sans-serif; }
+    main article div img {
+      width: 150px;
+      height: 200px; }
 
-section {
-  background-color: #D99197; }
-
-article {
-  background-color: white; }
-  article h2 {
-    font-family: "Montserrat", sans-serif; }
-  article img {
-    width: 150px;
-    height: 200px; }
-  article img:hover {
-    transform: scale(1.2); }
+img:hover {
+  transform: scale(1.2); }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .contenedor-video {
@@ -44,7 +43,7 @@ footer {
   background-color: #73242bc0;
   font-family: "Open Sans", sans-serif;
   grid-area: footer; }
-  footer h2 {
+  footer div h2 {
     font-family: "Montserrat", sans-serif; }
 
 .logos-redes img {
