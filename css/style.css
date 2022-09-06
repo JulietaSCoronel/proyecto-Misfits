@@ -16,8 +16,6 @@ nav li:hover {
 main {
   background-color: #F2D0D0;
   grid-area: main; }
-  main div h1 {
-    font-family: "Montserrat", sans-serif; }
   main section {
     background-color: #D99197; }
   main article {
