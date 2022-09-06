@@ -28,6 +28,14 @@ article {
   article img:hover {
     transform: scale(1.2); }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .contenedor-video {
+    display: none; } }
+
+@media (max-width: 576px) {
+  .contenedor-video {
+    display: none; } }
+
 footer {
   background-color: #73242bc0;
   font-family: "Open Sans", sans-serif;
