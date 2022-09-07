@@ -4,6 +4,11 @@ header{
     grid-area: header;
 
     nav{
+        .logo{
+            width:200px ;
+            height:100px ;
+            margin-right: 100px;
+        }
         ul{
             li{
                 font-family: $letra-monserrat;
@@ -19,6 +24,7 @@ header{
 
 nav li:hover{
     transform: scale(1.1);
+    
 }
 .logo-persona{
     width: 20px;
@@ -27,3 +33,9 @@ nav li:hover{
 .nav-link{
     color: black;
 }
+.nav-link:hover{
+    color: $color-rojo;
+   
+}
+
+

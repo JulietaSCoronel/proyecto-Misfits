@@ -3,6 +3,10 @@ header {
   background-color: white;
   color: black;
   grid-area: header; }
+  header nav .logo {
+    width: 200px;
+    height: 100px;
+    margin-right: 100px; }
   header nav ul li {
     font-family: "Montserrat", sans-serif;
     font-size: 1em; }
@@ -17,7 +21,11 @@ nav li:hover {
 .nav-link {
   color: black; }
 
+.nav-link:hover {
+  color: #A61F2B; }
+
 main {
+  margin-top: 100px;
   grid-area: main; }
   main section {
     background-color: #F2D0D0; }
@@ -30,6 +38,16 @@ main {
     main article div img {
       width: 150px;
       height: 200px; }
+  main .formulario-registro input {
+    background-color: rgba(255, 255, 255, 0.603);
+    width: 400px;
+    border: 1px solid black; }
+  main .formulario-registro input:hover {
+    transform: scale(1.2); }
+  main .formulario-registro {
+    background-color: #73242ba8; }
+  main .container-registro {
+    background-color: #F2D0D0; }
 
 .card img:hover {
   transform: scale(1.2); }
@@ -47,7 +65,7 @@ main {
     display: none; } }
 
 footer {
-  background-color: #73242bc0;
+  background-color: #73242b;
   font-family: "Open Sans", sans-serif;
   grid-area: footer; }
   footer div h2 {
@@ -80,7 +98,7 @@ a {
 .grilla-body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .5 fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "header " "main " "footer "; }
 
 body {
