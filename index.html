@@ -58,7 +58,7 @@
    <main class="container-fluid">
     <div class="row" id="main">
     <!-- ================================= CARROUSEL ================================= -->
-        <div class="col mt-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="col  d-flex flex-column justify-content-center align-items-center">
             
             <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3 mb-4" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -84,11 +84,10 @@
         </div>
         
     </div>
-    <!-- ================================= MAPA Y CONTACTO ================================= -->
+    <!-- ================================= CONTACTO ================================= -->
+    
     <section class="row"  id="contacto">
-        <div class="col d-flex justify-content-center align-items-center " data-aos="fade-up"  data-aos-duration="1000" id="ubicacion">
-            <iframe class="mapa mt-3  fade-up" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.830917233988!2d-58.537538100000006!3d-34.633712900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc81734c79463%3A0xc9cf15b7011ff3c6!2sSantiago%20de%20Liniers%203492%2C%20Ciudadela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1659322908535!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="500" height="300"></iframe></div>
-        </div>
+        
         <div class="col "  data-aos="fade-up"  data-aos-duration="1000" >
             <form class="mt-4 mb-4 " >
                 <h2 class="letra-monserrat d-flex justify-content-center "  >CONTACTANOS</h2>
@@ -115,14 +114,30 @@
         </div>
     </section>
     <!-- ================================= VIDEO Y PLANIS ================================= -->
-    <article class="row"  >
+    <article class="row d-flex align-items-center video-planis"  >
       
-        <div class="col d-flex justify-content-around align-items-center mt-3 mb-3 contenedor-video" data-aos="fade-up"  data-aos-duration="1000" >
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/um4VxiI2Ng0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col mt-3 mb-3 " data-aos="fade-up"  data-aos-duration="1000" >
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Torneo Misfits F2-8617.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Torneo Misfits F3-9208.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Torneo Misfits M1-6406.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
         </div>
         <div class="col " >
-          <h2 class="text-center mt-4 mb-4" data-aos="fade-up"  data-aos-duration="1000" >ENTRENA CON NOSOTROS</h2>
-          <p class="text-center" data-aos="fade-up"  data-aos-duration="500" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolor nisi eveniet, eum unde eligendi voluptas? Perspiciatis enim similique praesentium assumenda explicabo iure cumque voluptate eius ex consequuntur molestias unde reiciendis aperiam sequi necessitatibus quia ipsa modi voluptatem repudiandae corporis blanditiis, reprehenderit qui! Laborum necessitatibus cupiditate expedita sequi assumenda sed.</p>
+          <h2 class="text-center mt-4 mb-4 titulo-planificaciones" data-aos="fade-left"  data-aos-duration="1500" >ENTRENA CON NOSOTROS</h2>
+          <p class="text-center" data-aos="fade-up"  data-aos-duration="500" >Planificaciones presenciales y a distancia. <br>
+             ¿como funcionan? <br>
+            Trabajamos a traves de intercambios de videos. Se te envia el entrenamiento indicando las series a filmar, luego el entrenador los analiza y te devuelve las correcciones.
+          <br>
+        Los entrenamientos siempre tienen segmentos mas tecnicos y otros con mas intensidad y/o volumen. Las clases a distancia tienen un costo fijo independientemente de la cantidad de dias que entrenes.</p>
           <div class="contenedor-planis d-flex justify-content-around mb-3 flex-wrap" data-aos="fade-up"  data-aos-duration="500" >
           <img  src="./images/plani1.jpg" alt="plani 1">
           <img src="./images/plani1.jpg" alt="plani 2">
@@ -131,6 +146,12 @@
         </div>
      
     </article>
+    <!-- ================================= MAPA ================================= -->
+    <section class="row contenedor-mapa"  >
+      <div class="col mb-4 mt-4 d-flex justify-content-around" id="ubicacion">
+        <iframe class="mapa mt-3 " data-aos="fade-up"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.830917233988!2d-58.537538100000006!3d-34.633712900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc81734c79463%3A0xc9cf15b7011ff3c6!2sSantiago%20de%20Liniers%203492%2C%20Ciudadela%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1659322908535!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="400"></iframe></div>
+      </div>
+  </section>
    </main>
    <!-- ================================= FOOTER ================================= -->
    <footer class="container-fluid">

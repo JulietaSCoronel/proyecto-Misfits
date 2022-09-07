@@ -32,12 +32,16 @@ main {
   main article {
     background-color: white; }
     main article h2 {
+      background-color: #D99197;
       font-family: "Montserrat", sans-serif; }
     main article p {
       font-family: "Open Sans", sans-serif; }
-    main article div img {
+    main article div .contenedor-planis img {
       width: 150px;
       height: 200px; }
+    main article div img {
+      width: 100%;
+      height: 100%; }
   main .formulario-registro input {
     background-color: rgba(255, 255, 255, 0.603);
     width: 400px;
@@ -48,6 +52,8 @@ main {
     background-color: #73242ba8; }
   main .container-registro {
     background-color: #F2D0D0; }
+  main .contenedor-mapa {
+    background-color: #F2D0D0; }
 
 .card img:hover {
   transform: scale(1.2); }
@@ -56,13 +62,19 @@ main {
   .contenedor-video {
     display: none; }
   .contenedor-planis img {
-    display: none; } }
+    display: none; }
+  .video-planis {
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 576px) {
   .contenedor-video {
     display: none; }
   .contenedor-planis img {
-    display: none; } }
+    display: none; }
+  .video-planis {
+    display: flex;
+    flex-direction: column; } }
 
 footer {
   background-color: #73242b;
