@@ -14,10 +14,9 @@ nav li:hover {
   height: 20px; }
 
 main {
-  background-color: #F2D0D0;
   grid-area: main; }
   main section {
-    background-color: #D99197; }
+    background-color: #F2D0D0; }
   main article {
     background-color: white; }
     main article h2 {
