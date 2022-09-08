@@ -1,5 +1,5 @@
 main{ 
-    margin-top: 100px;
+    
     grid-area: main;
         div{
         
@@ -46,7 +46,6 @@ main{
 
 .formulario-registro input{
     background-color: rgba(255, 255, 255, 0.603);
-    width: 400px;
     border: 1px solid black;
     
 } 
@@ -55,6 +54,12 @@ main{
 }
 .formulario-registro{
     background-color: $color-bordo-claro;
+
+}
+.formulario-registro h2{
+    background-color: $color-rosa;
+    padding: 20px;
+    
 }
 .container-registro{
     background-color: $color-rosa
@@ -64,8 +69,19 @@ main{
     background-color: $color-rosa;
 }    
 }
+.card img{
+    opacity: 1;
+}
 .card img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    opacity: 0.5;
+
+}
+
+.titulo-entrenadores{
+    background-color: $color-bordo;
+    padding: 20px;
+    color: white;
 }
 @media (min-width: 576px) and (max-width: 768px) { 
     .contenedor-video{display: none;} 

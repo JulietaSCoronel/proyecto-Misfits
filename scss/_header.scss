@@ -6,7 +6,7 @@ header{
     nav{
         .logo{
             width:200px ;
-            height:100px ;
+            height:80px ;
             margin-right: 100px;
         }
         ul{
@@ -38,4 +38,10 @@ nav li:hover{
    
 }
 
-
+@media (min-width: 500px) {
+    .logo{
+        width:100px ;
+        height:70px ;
+        margin: 0px;
+    }
+}
