@@ -35,10 +35,12 @@ header{
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 576px) { 
     .logo{
         width:100px ;
         height:70px ;
-        margin: 0px;
+        margin: 0;
     }
-}
+ } 
+   
+
