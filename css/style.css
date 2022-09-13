@@ -46,9 +46,10 @@ main {
     transform: scale(1.2); }
   main .formulario-registro {
     background-color: #73242ba8; }
+  main .campus-registro {
+    padding: 10px; }
   main .formulario-registro h2 {
-    background-color: #F2D0D0;
-    padding: 20px; }
+    background-color: #F2D0D0; }
   main .container-registro {
     background-color: #F2D0D0; }
   main .contenedor-mapa {
