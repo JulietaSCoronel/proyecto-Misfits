@@ -14,31 +14,26 @@ header{
                 font-family: $letra-monserrat;
                 font-size: 1em;
                 
-                
+                &:hover{
+                    transform: scale(1.1);
+                    
+                }  
+                .item{
+                    color: white;
+                    padding-right: 0.5rem;
+                    padding-left: 0.5rem;
+
+                    &:hover{
+                        color: $color-rosa;
+                    }
+                } 
             }
         }
         
     }
 }
 
-nav li:hover{
-    transform: scale(1.1);
-    
-}
-.logo-persona{
-    width: 20px;
-    height: 20px;
-}
 
-.item{
-    color: white;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-}
-.nav-link:hover{
-    color: $color-rojo;
-   
-}
 
 @media (min-width: 500px) {
     .logo{
