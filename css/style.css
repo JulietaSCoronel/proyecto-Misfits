@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
 header {
-  background-color: white;
-  color: black;
+  background-color: #73242b;
+  color: white;
   grid-area: header; }
   header nav .logo {
     width: 200px;
@@ -18,8 +18,10 @@ nav li:hover {
   width: 20px;
   height: 20px; }
 
-.nav-link {
-  color: black; }
+.item {
+  color: white;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem; }
 
 .nav-link:hover {
   color: #A61F2B; }
@@ -41,9 +43,6 @@ main {
       font-family: "Montserrat", sans-serif; }
     main article p {
       font-family: "Open Sans", sans-serif; }
-    main article div .contenedor-planis img {
-      width: 150px;
-      height: 200px; }
     main article div img {
       width: 100%;
       height: 100%; }
@@ -70,9 +69,7 @@ main {
   opacity: 0.5; }
 
 .titulo-entrenadores {
-  background-color: #73242b;
-  padding: 20px;
-  color: white; }
+  background-color: #D99197; }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .contenedor-video {

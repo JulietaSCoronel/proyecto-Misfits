@@ -1,6 +1,6 @@
 header{
-    background-color: white;
-    color: black;
+    background-color: $color-bordo;
+    color: white;
     grid-area: header;
 
     nav{
@@ -13,9 +13,8 @@ header{
             li{
                 font-family: $letra-monserrat;
                 font-size: 1em;
-                a{
-                    
-                }
+                
+                
             }
         }
         
@@ -30,8 +29,11 @@ nav li:hover{
     width: 20px;
     height: 20px;
 }
-.nav-link{
-    color: black;
+
+.item{
+    color: white;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
 .nav-link:hover{
     color: $color-rojo;
