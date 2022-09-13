@@ -26,15 +26,20 @@ main{
         }
         
 }
+@mixin medidas ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
 .img-planis{
-    width:180px ;
-    height:250px ;
+    @include medidas(180px,250px);
 
     &:hover{
         transform: scale(1.1);
     }
 }
-
+.foto-torneo{
+    @include medidas(500px,600px);
+}
 .formulario-registro input{
     background-color: rgba(255, 255, 255, 0.603);
     border: 1px solid black;
@@ -85,7 +90,7 @@ main{
         display: flex;
         flex-direction: column;
     }
-
+    
 }
 @media (max-width: 576px) { 
     .contenedor-video{display: none;} 
@@ -95,6 +100,9 @@ main{
     .video-planis{
         display: flex;
         flex-direction: column;
+    }
+    .card-text{
+        display: none;
     }
  }
 

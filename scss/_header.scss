@@ -9,6 +9,7 @@ header{
             height:80px ;
             margin-right: 100px;
         }
+        
         ul{
             li{
                 font-family: $letra-monserrat;
@@ -35,12 +36,13 @@ header{
 
 
 
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     .logo{
         width:100px ;
         height:70px ;
         margin: 0;
     }
  } 
-   
+  
+ 
 

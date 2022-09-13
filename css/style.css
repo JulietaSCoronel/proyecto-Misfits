@@ -19,7 +19,7 @@ header {
       header nav ul li .item:hover {
         color: #F2D0D0; }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .logo {
     width: 100px;
     height: 70px;
@@ -44,6 +44,9 @@ main {
     height: 250px; }
     main .img-planis:hover {
       transform: scale(1.1); }
+  main .foto-torneo {
+    width: 500px;
+    height: 600px; }
   main .formulario-registro input {
     background-color: rgba(255, 255, 255, 0.603);
     border: 1px solid black; }
@@ -86,7 +89,9 @@ main {
     display: none; }
   .video-planis {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .card-text {
+    display: none; } }
 
 footer {
   background-color: #73242b;
