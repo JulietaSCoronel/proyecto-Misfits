@@ -1,18 +1,13 @@
 main{ 
     
     grid-area: main;
-    section{
-        background-color: map-get($colores-rosas, "rosa-claro" );
-        
-       
-            
-       
-    }
     article{
         background-color: white;
        
-        h2{ background-color: map-get($colores-rosas, "rosa-oscuro" );
+        .titulo-planificaciones{ 
+            background-color: $color-negro;
             font-family: $letra-monserrat;
+            color: white;
         }
         p{
             font-family: $letra-open;
@@ -40,6 +35,12 @@ main{
 .foto-torneo{
     @include medidas(500px,600px);
 }
+.contenedor-mapa{
+    @extend .contenedor-contacto;
+}
+.contenedor-contacto{
+    background-color:map-get($colores-rosas, "rosa-claro" ); 
+}
 /* ================================ REGISTRO ====================================== */
 .formulario-registro input{
     background-color: rgba(255, 255, 255, 0.603);
@@ -65,9 +66,7 @@ main{
     background-color: $color-rosa
 }
   
-.contenedor-mapa{
-    background-color: $color-rosa;
-}    
+    
 }
 /* ================================ ENTRENADORES ====================================== */
 .card {

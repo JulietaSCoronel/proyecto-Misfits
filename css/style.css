@@ -36,15 +36,13 @@ main {
   grid-area: main;
   /* ================================ REGISTRO ====================================== */
 }
-main section {
-  background-color: #F2D0D0;
-}
 main article {
   background-color: white;
 }
-main article h2 {
-  background-color: #D99197;
+main article .titulo-planificaciones {
+  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 main article p {
   font-family: "Open Sans", sans-serif;
@@ -64,6 +62,9 @@ main .foto-torneo {
   width: 500px;
   height: 600px;
 }
+main .contenedor-contacto, main .contenedor-mapa {
+  background-color: #F2D0D0;
+}
 main .formulario-registro input {
   background-color: rgba(255, 255, 255, 0.603);
   border: 1px solid black;
@@ -81,9 +82,6 @@ main .formulario-registro h2 {
   background-color: #F2D0D0;
 }
 main .container-registro {
-  background-color: #F2D0D0;
-}
-main .contenedor-mapa {
   background-color: #F2D0D0;
 }
 
