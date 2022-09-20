@@ -6,8 +6,7 @@ header {
 }
 header nav .logo {
   width: 200px;
-  height: 80px;
-  margin-right: 100px;
+  height: 60px;
 }
 header nav ul li {
   font-family: "Montserrat", sans-serif;
@@ -124,9 +123,6 @@ figcaption {
     display: flex;
     flex-direction: column;
   }
-  .foto-torneo {
-    display: none;
-  }
 }
 @media (max-width: 576px) {
   .contenedor-video {
@@ -139,7 +135,7 @@ figcaption {
     display: flex;
     flex-direction: column;
   }
-  .fotos-torneo {
+  .foto-torneo {
     display: none;
   }
 }
@@ -182,22 +178,6 @@ a {
   transform: scale(1.1);
 }
 
-.grilla-body {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: "header " "main " "footer ";
-}
-
 body {
   scroll-behavior: smooth;
-}
-
-@media (max-width: 576px) {
-  .grilla-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "header " "main " "footer ";
-  }
 }/*# sourceMappingURL=style.css.map */

@@ -106,9 +106,7 @@ figcaption{
         display: flex;
         flex-direction: column;
     }
-    .foto-torneo{
-        display: none;
-    }
+    
 }
 @media (max-width: 576px) { 
     .contenedor-video{display: none;} 
@@ -119,7 +117,7 @@ figcaption{
         display: flex;
         flex-direction: column;
     }
-    .fotos-torneo{
+    .foto-torneo{
         display: none;
     }
     
