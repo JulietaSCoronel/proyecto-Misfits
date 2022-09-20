@@ -124,7 +124,7 @@ figcaption {
     display: flex;
     flex-direction: column;
   }
-  .fotos-torneo {
+  .foto-torneo {
     display: none;
   }
 }
