@@ -124,6 +124,9 @@ figcaption {
     display: flex;
     flex-direction: column;
   }
+  .fotos-torneo {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   .contenedor-video {
@@ -135,6 +138,9 @@ figcaption {
   .video-planis {
     display: flex;
     flex-direction: column;
+  }
+  .fotos-torneo {
+    display: none;
   }
 }
 footer {

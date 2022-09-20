@@ -41,6 +41,7 @@ main{
 .contenedor-contacto{
     background-color:map-get($colores-rosas, "rosa-claro" ); 
 }
+
 /* ================================ REGISTRO ====================================== */
 .formulario-registro input{
     background-color: rgba(255, 255, 255, 0.603);
@@ -105,7 +106,9 @@ figcaption{
         display: flex;
         flex-direction: column;
     }
-    
+    .fotos-torneo{
+        display: none;
+    }
 }
 @media (max-width: 576px) { 
     .contenedor-video{display: none;} 
@@ -115,6 +118,9 @@ figcaption{
     .video-planis{
         display: flex;
         flex-direction: column;
+    }
+    .fotos-torneo{
+        display: none;
     }
     
  }
