@@ -3,18 +3,8 @@
 @import "./main";
 @import "./footer";
 @import "./mixins";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap');
 
-
-button{
-    border: 1px solid black;
-    background-color: rgba(0, 0, 0, 0.637);
-    font-family: $letra-monserrat;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-
-}
 a{
     color: black;
     text-decoration: none;

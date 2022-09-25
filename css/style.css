@@ -1,27 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
-header {
-  background-color: #73242b;
-  color: white;
-  grid-area: header;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap");
+header nav {
+  background-color: #B01B39;
 }
 header nav .logo {
   width: 200px;
   height: 60px;
 }
-header nav ul li {
+header ul li {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
 }
-header nav ul li:hover {
+header ul li:hover {
   transform: scale(1.1);
 }
-header nav ul li .item {
-  color: white;
+header ul li .item {
+  color: black;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
 }
-header nav ul li .item:hover {
-  color: #F2D0D0;
+header ul li .item:hover {
+  color: #F54747;
 }
 
 @media (max-width: 576px) {
@@ -32,23 +30,57 @@ header nav ul li .item:hover {
   }
 }
 main {
-  grid-area: main;
   /* ================================ REGISTRO ====================================== */
 }
+main .portada {
+  position: relative;
+}
+main .texto-portada {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 5rem;
+  background-image: url("../images/brisa (3).jpg");
+  background-attachment: fixed;
+  height: 100vh;
+}
+main .portada2 {
+  background-image: url("../images/parce.jpg");
+  background-attachment: fixed;
+  height: 110vh;
+  position: relative;
+}
+main .titulo-portada2 {
+  position: absolute;
+  color: black;
+  font-family: "Kanit", sans-serif;
+  font-size: 5rem;
+  bottom: 0;
+  right: 50%;
+  left: 20px;
+}
 main article {
-  background-color: white;
+  background-color: rgba(26, 22, 23, 0.8745098039);
+  height: 70vh;
 }
 main article .titulo-planificaciones {
-  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
   color: white;
+  font-size: 72px;
 }
 main article p {
   font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 0.2em;
 }
-main article div img {
-  width: 100%;
-  height: 100%;
+main .contenedor1 {
+  background-color: white;
+  height: 80vh;
+}
+main .titulo-prueba {
+  font-family: "Kanit", sans-serif;
+  font-size: 72px;
+  color: black;
 }
 main .img-planis {
   width: 180px;
@@ -62,7 +94,21 @@ main .foto-torneo {
   height: 600px;
 }
 main .contenedor-contacto, main .contenedor-mapa {
-  background-color: #F2D0D0;
+  background-color: rgba(26, 22, 23, 0.8745098039);
+}
+main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div main .contenedor-contacto p, main .contenedor-mapa h2, main .contenedor-mapa footer div p, footer div main .contenedor-mapa p {
+  color: white;
+}
+main .contenedor-contacto label, main .contenedor-mapa label {
+  color: white;
+}
+main .boton-contacto {
+  border: 1px solid white;
+  background-color: rgba(26, 22, 23, 0.8745098039);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
 }
 main .formulario-registro input {
   background-color: rgba(255, 255, 255, 0.603);
@@ -71,17 +117,14 @@ main .formulario-registro input {
 main .formulario-registro input:hover {
   transform: scale(1.2);
 }
-main .formulario-registro {
-  background-color: rgba(115, 36, 43, 0.6588235294);
-}
 main .campus-registro {
   padding: 10px;
 }
-main .formulario-registro h2 {
-  background-color: #F2D0D0;
+main .formulario-registro h2, main .formulario-registro footer div p, footer div main .formulario-registro p {
+  background-color: #F54747;
 }
 main .container-registro {
-  background-color: #F2D0D0;
+  background-color: #F54747;
 }
 
 /* ================================ ENTRENADORES ====================================== */
@@ -140,12 +183,12 @@ figcaption {
   }
 }
 footer {
-  background-color: #73242b;
+  background-color: #B01B39;
   font-family: "Open Sans", sans-serif;
-  grid-area: footer;
 }
-footer div h2 {
+footer div h2, footer div p {
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
 .logos-redes img {
   width: 35px;
@@ -156,11 +199,11 @@ footer div h2 {
   transform: scale(1.2);
 }
 
-button {
+.boton-footer {
   border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.637);
+  background-color: #B01B39;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: black;
   padding: 15px;
   border-radius: 10px;
 }

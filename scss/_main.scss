@@ -1,26 +1,61 @@
 main{ 
+    .portada{
+        position: relative;  
+    }
+    .texto-portada{
+        color: white;
+        font-family:'Kanit', sans-serif;
+        font-size: 5rem;
+        background-image: url("../images/brisa\ \(3\).jpg");
+        background-attachment: fixed;
+        height: 100vh;
+        
+    }
+    .portada2{
+        background-image: url("../images/parce.jpg");
+        background-attachment: fixed;
+        height: 110vh;
+        position: relative;
+    }
+    .titulo-portada2{
+        position: absolute;
+        color:black;
+        font-family:'Kanit', sans-serif;
+        font-size: 5rem;
+        bottom: 0;
+        right: 50%;
+        left: 20px;
+    }
     
-    grid-area: main;
     article{
-        background-color: white;
-       
+        background-color: $color-celeste;
+        height: 70vh;
+
+        
         .titulo-planificaciones{ 
-            background-color: $color-negro;
             font-family: $letra-monserrat;
             color: white;
+            font-size: 72px;
         }
         p{
             font-family: $letra-open;
-        }
-        div{
-            
-            img{
-                width:100% ;
-                height: 100%;
-            }
+            color: white;
+            font-size: 18px;
+            letter-spacing: .2em;
         }
         
+        
 }
+.contenedor1{
+    background-color: white;
+    height: 80vh;
+}
+.titulo-prueba{
+    font-family: 'Kanit', sans-serif;
+    font-size: 72px;
+    color: black;
+}
+
 @mixin medidas ($ancho, $alto){
     width: $ancho;
     height: $alto;
@@ -39,7 +74,21 @@ main{
     @extend .contenedor-contacto;
 }
 .contenedor-contacto{
-    background-color:map-get($colores-rosas, "rosa-claro" ); 
+    background-color:$color-celeste;
+    & h2{
+        color: white;
+    }
+    & label{
+        color: white;
+    }
+}
+.boton-contacto{
+    border: 1px solid white;
+    background-color: $color-celeste;
+    font-family: $letra-monserrat;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 /* ================================ REGISTRO ====================================== */
@@ -51,22 +100,18 @@ main{
 .formulario-registro input:hover{
     transform: scale(1.2);
 }
-.formulario-registro{
-    background-color: $color-bordo-claro;
-
-}
 .campus-registro{
     padding:10px;
 }
 .formulario-registro h2{
-    background-color: $color-rosa;
+    background-color: $color-coral;
     
     
 }
 .container-registro{
-    background-color: $color-rosa
+    background-color: $color-coral;
 }
-  
+
     
 }
 /* ================================ ENTRENADORES ====================================== */
@@ -121,5 +166,5 @@ figcaption{
         display: none;
     }
     
- }
+}
 

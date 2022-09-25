@@ -1,15 +1,11 @@
 header{
-    background-color: $color-bordo;
-    color: white;
-    grid-area: header;
-
     nav{
+        background-color: $color-amarillo;
         .logo{
             width:200px ;
             height:60px ;
-            
-        }
-        
+            }
+    }    
         
         ul{
             li{
@@ -21,19 +17,19 @@ header{
                     
                 }  
                 .item{
-                    color: white;
+                    color: black;
                     padding-right: 0.5rem;
                     padding-left: 0.5rem;
 
                     &:hover{
-                        color: $color-rosa;
+                        color: $color-coral;
                     }
                 } 
             }
         }
         
     }
-}
+
 
 
 
