@@ -38,7 +38,7 @@ main .portada {
 main .texto-portada {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 4em;
+  font-size: 5vw;
   position: absolute;
   top: 10px;
   left: 60%;
@@ -50,7 +50,7 @@ main .titulo-portada2 {
   position: absolute;
   color: black;
   font-family: "Kanit", sans-serif;
-  font-size: 4em;
+  font-size: 5vw;
   bottom: 0;
   right: 50%;
   left: 20px;
@@ -76,7 +76,7 @@ main .contenedor1 {
 }
 main .titulo-prueba {
   font-family: "Kanit", sans-serif;
-  font-size: 4em;
+  font-size: 5vw;
   color: black;
 }
 main .img-planis {
@@ -152,22 +152,6 @@ figcaption {
 }
 
 /* ================================ MEDIA QUERYS ====================================== */
-@media (min-width: 576px) and (max-width: 768px) {
-  .texto-portada {
-    font-size: 1rem;
-  }
-}
-@media (max-width: 576px) {
-  .texto-portada {
-    font-size: 1rem;
-  }
-  .titulo-prueba {
-    font-size: 1rem;
-  }
-  .titulo-portada2 {
-    font-size: 20px;
-  }
-}
 footer {
   background-color: #B01B39;
   font-family: "Open Sans", sans-serif;
@@ -194,6 +178,21 @@ footer div h2, footer div p {
   border-radius: 10px;
 }
 
+@media (min-width: 576px) and (max-width: 768px) {
+  .boton-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .boton-footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .logos-redes img {
+    margin-bottom: 15px;
+  }
+}
 a {
   color: black;
   text-decoration: none;
