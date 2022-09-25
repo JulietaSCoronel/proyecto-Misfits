@@ -38,22 +38,19 @@ main .portada {
 main .texto-portada {
   color: white;
   font-family: "Kanit", sans-serif;
-  font-size: 5rem;
-  background-image: url("../images/brisa (3).jpg");
-  background-attachment: fixed;
-  height: 100vh;
+  font-size: 4em;
+  position: absolute;
+  top: 10px;
+  left: 60%;
 }
 main .portada2 {
-  background-image: url("../images/parce.jpg");
-  background-attachment: fixed;
-  height: 110vh;
   position: relative;
 }
 main .titulo-portada2 {
   position: absolute;
   color: black;
   font-family: "Kanit", sans-serif;
-  font-size: 5rem;
+  font-size: 4em;
   bottom: 0;
   right: 50%;
   left: 20px;
@@ -65,12 +62,12 @@ main article {
 main article .titulo-planificaciones {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 72px;
+  font-size: 2.5em;
 }
 main article p {
   font-family: "Open Sans", sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 21m;
   letter-spacing: 0.2em;
 }
 main .contenedor1 {
@@ -79,7 +76,7 @@ main .contenedor1 {
 }
 main .titulo-prueba {
   font-family: "Kanit", sans-serif;
-  font-size: 72px;
+  font-size: 4em;
   color: black;
 }
 main .img-planis {
@@ -156,30 +153,19 @@ figcaption {
 
 /* ================================ MEDIA QUERYS ====================================== */
 @media (min-width: 576px) and (max-width: 768px) {
-  .contenedor-video {
-    display: none;
-  }
-  .contenedor-planis img {
-    display: none;
-  }
-  .video-planis {
-    display: flex;
-    flex-direction: column;
+  .texto-portada {
+    font-size: 1rem;
   }
 }
 @media (max-width: 576px) {
-  .contenedor-video {
-    display: none;
+  .texto-portada {
+    font-size: 1rem;
   }
-  .contenedor-planis img {
-    display: none;
+  .titulo-prueba {
+    font-size: 1rem;
   }
-  .video-planis {
-    display: flex;
-    flex-direction: column;
-  }
-  .foto-torneo {
-    display: none;
+  .titulo-portada2 {
+    font-size: 20px;
   }
 }
 footer {

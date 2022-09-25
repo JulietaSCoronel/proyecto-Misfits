@@ -5,23 +5,20 @@ main{
     .texto-portada{
         color: white;
         font-family:'Kanit', sans-serif;
-        font-size: 5rem;
-        background-image: url("../images/brisa\ \(3\).jpg");
-        background-attachment: fixed;
-        height: 100vh;
+        font-size: 4em;
+        position: absolute;
+        top: 10px;
+        left: 60%;
         
     }
     .portada2{
-        background-image: url("../images/parce.jpg");
-        background-attachment: fixed;
-        height: 110vh;
         position: relative;
     }
     .titulo-portada2{
         position: absolute;
         color:black;
         font-family:'Kanit', sans-serif;
-        font-size: 5rem;
+        font-size: 4em;
         bottom: 0;
         right: 50%;
         left: 20px;
@@ -35,12 +32,12 @@ main{
         .titulo-planificaciones{ 
             font-family: $letra-monserrat;
             color: white;
-            font-size: 72px;
+            font-size: 2.5em;
         }
         p{
             font-family: $letra-open;
             color: white;
-            font-size: 18px;
+            font-size: 21m;
             letter-spacing: .2em;
         }
         
@@ -52,7 +49,7 @@ main{
 }
 .titulo-prueba{
     font-family: 'Kanit', sans-serif;
-    font-size: 72px;
+    font-size: 4em;
     color: black;
 }
 
@@ -143,28 +140,23 @@ figcaption{
 
 /* ================================ MEDIA QUERYS ====================================== */
 @media (min-width: 576px) and (max-width: 768px) { 
-    .contenedor-video{display: none;} 
-    .contenedor-planis img{
-        display: none;
+    .texto-portada{
+        font-size: 1rem;
     }
-    .video-planis{
-        display: flex;
-        flex-direction: column;
-    }
-    
 }
 @media (max-width: 576px) { 
-    .contenedor-video{display: none;} 
-    .contenedor-planis img{
-        display: none;
-    }
-    .video-planis{
-        display: flex;
-        flex-direction: column;
-    }
-    .foto-torneo{
-        display: none;
-    }
     
+    .texto-portada{
+        font-size: 1rem;
+    }
+    .titulo-prueba{
+    
+        font-size: 1rem;
+        
+    }
+    .titulo-portada2{
+        font-size: 20px;
+    }
 }
+
 
