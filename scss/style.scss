@@ -4,13 +4,14 @@
 @import "./footer";
 @import "./mixins";
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 a{
     color: black;
     text-decoration: none;
-}
-.input-mensaje{
-    height: 100px;
 }
 .card:hover{
  transform: scale(1.1);

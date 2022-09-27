@@ -68,7 +68,7 @@ main{
     @include medidas(500px,600px);
 }
 .contenedor-mapa{
-    @extend .contenedor-contacto;
+    background-color: white;
 }
 .contenedor-contacto{
     background-color:$color-celeste;
@@ -86,6 +86,9 @@ main{
     color:white;
     padding: 15px;
     border-radius: 10px;
+}
+.input-mensaje{
+    height: 100px;
 }
 
 /* ================================ REGISTRO ====================================== */

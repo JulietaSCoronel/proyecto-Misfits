@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Reem+Kufi+Ink&family=Titillium+Web&display=swap");
 header nav {
-  background-color: #B01B39;
+  background-color: white;
 }
 header nav .logo {
-  width: 200px;
-  height: 60px;
+  width: 10em;
+  height: 3.5em;
 }
 header ul li {
   font-family: "Montserrat", sans-serif;
@@ -22,13 +22,6 @@ header ul li .item:hover {
   color: #F54747;
 }
 
-@media (max-width: 576px) {
-  .logo {
-    width: 100px;
-    height: 70px;
-    margin: 0;
-  }
-}
 main {
   /* ================================ REGISTRO ====================================== */
 }
@@ -56,7 +49,7 @@ main .titulo-portada2 {
   left: 20px;
 }
 main article {
-  background-color: rgba(26, 22, 23, 0.8745098039);
+  background-color: #262223;
   height: 70vh;
 }
 main article .titulo-planificaciones {
@@ -90,22 +83,28 @@ main .foto-torneo {
   width: 500px;
   height: 600px;
 }
-main .contenedor-contacto, main .contenedor-mapa {
-  background-color: rgba(26, 22, 23, 0.8745098039);
+main .contenedor-mapa {
+  background-color: white;
 }
-main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div main .contenedor-contacto p, main .contenedor-mapa h2, main .contenedor-mapa footer div p, footer div main .contenedor-mapa p {
+main .contenedor-contacto {
+  background-color: #262223;
+}
+main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div main .contenedor-contacto p {
   color: white;
 }
-main .contenedor-contacto label, main .contenedor-mapa label {
+main .contenedor-contacto label {
   color: white;
 }
 main .boton-contacto {
   border: 1px solid white;
-  background-color: rgba(26, 22, 23, 0.8745098039);
+  background-color: #262223;
   font-family: "Montserrat", sans-serif;
   color: white;
   padding: 15px;
   border-radius: 10px;
+}
+main .input-mensaje {
+  height: 100px;
 }
 main .formulario-registro input {
   background-color: rgba(255, 255, 255, 0.603);
@@ -153,7 +152,7 @@ figcaption {
 
 /* ================================ MEDIA QUERYS ====================================== */
 footer {
-  background-color: #B01B39;
+  background-color: white;
   font-family: "Open Sans", sans-serif;
 }
 footer div h2, footer div p {
@@ -171,7 +170,7 @@ footer div h2, footer div p {
 
 .boton-footer {
   border: 1px solid black;
-  background-color: #B01B39;
+  background-color: white;
   font-family: "Montserrat", sans-serif;
   color: black;
   padding: 15px;
@@ -193,13 +192,14 @@ footer div h2, footer div p {
     margin-bottom: 15px;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: black;
   text-decoration: none;
-}
-
-.input-mensaje {
-  height: 100px;
 }
 
 .card:hover {

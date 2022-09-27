@@ -2,8 +2,8 @@ header{
     nav{
         background-color: $color-amarillo;
         .logo{
-            width:200px ;
-            height:60px ;
+            width:10em ;
+            height:3.5em;
             }
     }    
         
@@ -33,14 +33,7 @@ header{
 
 
 
-@media (max-width: 576px) { 
-    .logo{
-        width:100px ;
-        height:70px ;
-        margin: 0;
-    }
- } 
- 
-  
- 
+@media (max-width: 576px) { }
+    
+
 
