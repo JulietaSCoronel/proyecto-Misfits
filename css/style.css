@@ -66,6 +66,9 @@ main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div
 main .contenedor-contacto label {
   color: #262223;
 }
+main .titulo-contacto {
+  font-size: 3em;
+}
 main .boton-contacto {
   border: 1px solid #B01B39;
   background-color: #B01B39;
@@ -172,6 +175,16 @@ footer div h2, footer div p {
 * {
   margin: 0;
   padding: 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 a {
