@@ -23,6 +23,7 @@ header ul li .item:hover {
 }
 
 main {
+  /* =============================== PLANIFICACIONES ============================================= */
   /* ================================ REGISTRO ====================================== */
 }
 main .portada {
@@ -36,32 +37,13 @@ main .texto-portada {
   top: 10px;
   left: 60%;
 }
-main .portada2 {
-  position: relative;
-}
-main .titulo-portada2 {
-  position: absolute;
-  color: black;
-  font-family: "Kanit", sans-serif;
-  font-size: 5vw;
-  bottom: 0;
-  right: 50%;
-  left: 20px;
-}
 main article {
-  background-color: #262223;
-  height: 70vh;
-}
-main article .titulo-planificaciones {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  font-size: 2.5em;
+  background-color: white;
+  height: auto;
 }
 main article p {
   font-family: "Open Sans", sans-serif;
-  color: white;
-  font-size: 21m;
-  letter-spacing: 0.2em;
+  color: black;
 }
 main .contenedor1 {
   background-color: white;
@@ -71,17 +53,6 @@ main .titulo-prueba {
   font-family: "Kanit", sans-serif;
   font-size: 5vw;
   color: black;
-}
-main .img-planis {
-  width: 180px;
-  height: 250px;
-}
-main .img-planis:hover {
-  transform: scale(1.1);
-}
-main .foto-torneo {
-  width: 500px;
-  height: 600px;
 }
 main .contenedor-mapa {
   background-color: white;
@@ -96,14 +67,21 @@ main .contenedor-contacto label {
   color: #262223;
 }
 main .boton-contacto {
-  border: 1px solid white;
-  background-color: #262223;
+  border: 1px solid #B01B39;
+  background-color: #B01B39;
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: black;
   padding: 15px;
 }
 main .input-mensaje {
   height: 100px;
+}
+main .boton-planificaciones {
+  border: 1px solid #B01B39;
+  background-color: #B01B39;
+  font-family: "Montserrat", sans-serif;
+  color: black; /* pisado por el color del anchor */
+  padding: 15px;
 }
 main .formulario-registro input {
   background-color: rgba(255, 255, 255, 0.603);

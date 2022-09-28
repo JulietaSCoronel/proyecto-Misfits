@@ -11,34 +11,16 @@ main{
         left: 60%;
         
     }
-    .portada2{
-        position: relative;
-    }
-    .titulo-portada2{
-        position: absolute;
-        color:black;
-        font-family:'Kanit', sans-serif;
-        font-size: 5vw;
-        bottom: 0;
-        right: 50%;
-        left: 20px;
-    }
+    
     
     article{
-        background-color: $color-celeste;
-        height: 70vh;
+        background-color: white;
+        height: auto;
+    
 
-        
-        .titulo-planificaciones{ 
-            font-family: $letra-monserrat;
-            color: white;
-            font-size: 2.5em;
-        }
         p{
             font-family: $letra-open;
-            color: white;
-            font-size: 21m;
-            letter-spacing: .2em;
+            color: black;
         }
         
         
@@ -57,16 +39,7 @@ main{
     width: $ancho;
     height: $alto;
 }
-.img-planis{
-    @include medidas(180px,250px);
 
-    &:hover{
-        transform: scale(1.1);
-    }
-}
-.foto-torneo{
-    @include medidas(500px,600px);
-}
 .contenedor-mapa{
     background-color: white;
 }
@@ -80,14 +53,22 @@ main{
     }
 }
 .boton-contacto{
-    border: 1px solid white;
-    background-color: $color-celeste;
+    border: 1px solid $color-bordo;
+    background-color: $color-bordo;
     font-family: $letra-monserrat;
-    color:white;
+    color:black;
     padding: 15px;
 }
 .input-mensaje{
     height: 100px;
+}
+/* =============================== PLANIFICACIONES ============================================= */
+.boton-planificaciones{
+    border: 1px solid $color-bordo;
+    background-color: $color-bordo;
+    font-family: $letra-monserrat;
+    color:black;/* pisado por el color del anchor */
+    padding: 15px;
 }
 
 /* ================================ REGISTRO ====================================== */
@@ -142,11 +123,8 @@ figcaption{
 
 /* ================================ MEDIA QUERYS ====================================== */
 @media (min-width: 576px) and (max-width: 768px) { 
-    
 }
 @media (max-width: 576px) { 
-    
-    
     
 }
 
