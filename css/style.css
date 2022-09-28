@@ -87,13 +87,13 @@ main .contenedor-mapa {
   background-color: white;
 }
 main .contenedor-contacto {
-  background-color: #262223;
+  background-color: white;
 }
 main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div main .contenedor-contacto p {
-  color: white;
+  color: black;
 }
 main .contenedor-contacto label {
-  color: white;
+  color: #262223;
 }
 main .boton-contacto {
   border: 1px solid white;
@@ -101,7 +101,6 @@ main .boton-contacto {
   font-family: "Montserrat", sans-serif;
   color: white;
   padding: 15px;
-  border-radius: 10px;
 }
 main .input-mensaje {
   height: 100px;

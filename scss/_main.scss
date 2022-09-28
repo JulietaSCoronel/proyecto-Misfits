@@ -71,12 +71,12 @@ main{
     background-color: white;
 }
 .contenedor-contacto{
-    background-color:$color-celeste;
+    background-color:white;
     & h2{
-        color: white;
+        color: black;
     }
     & label{
-        color: white;
+        color: $color-celeste;
     }
 }
 .boton-contacto{
@@ -85,7 +85,6 @@ main{
     font-family: $letra-monserrat;
     color:white;
     padding: 15px;
-    border-radius: 10px;
 }
 .input-mensaje{
     height: 100px;
