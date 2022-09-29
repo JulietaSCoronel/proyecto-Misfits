@@ -52,9 +52,7 @@ main{
         color: $color-celeste;
     }
 }
-.titulo-contacto{
-    font-size: 3em;
-}
+
 .boton-contacto{
     border: 1px solid $color-bordo;
     background-color: $color-bordo;
@@ -128,8 +126,6 @@ figcaption{
 @media (min-width: 576px) and (max-width: 768px) { 
 }
 @media (max-width: 575.98px) { 
-    .titulo-contacto{
-        font-size: 1em;
-}
+    
 }
 

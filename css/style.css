@@ -66,9 +66,6 @@ main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div
 main .contenedor-contacto label {
   color: #262223;
 }
-main .titulo-contacto {
-  font-size: 3em;
-}
 main .boton-contacto {
   border: 1px solid #B01B39;
   background-color: #B01B39;
@@ -131,11 +128,6 @@ figcaption {
 }
 
 /* ================================ MEDIA QUERYS ====================================== */
-@media (max-width: 575.98px) {
-  .titulo-contacto {
-    font-size: 1em;
-  }
-}
 footer {
   background-color: white;
   font-family: "Open Sans", sans-serif;
