@@ -10,9 +10,6 @@ header nav .logo {
 main section .hero {
   height: 100vh;
 }
-main section .carousel-item img {
-  opacity: 0.5;
-}
 
 * {
   margin: 0;
