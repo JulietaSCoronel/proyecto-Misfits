@@ -10,83 +10,8 @@ header nav .logo {
 main section .hero {
   height: 100vh;
 }
-<<<<<<< HEAD
 main section .carousel-item img {
   opacity: 0.5;
-=======
-main .portada {
-  position: relative;
-}
-main .texto-portada {
-  color: white;
-  font-family: "Kanit", sans-serif;
-  font-size: 5vw;
-  position: absolute;
-  top: 10px;
-  left: 60%;
-}
-main article {
-  background-color: white;
-  height: auto;
-}
-main article p {
-  font-family: "Open Sans", sans-serif;
-  color: black;
-}
-main .contenedor1 {
-  background-color: white;
-  height: 80vh;
-}
-main .titulo-prueba {
-  font-family: "Kanit", sans-serif;
-  font-size: 5vw;
-  color: black;
-}
-main .contenedor-mapa {
-  background-color: white;
-}
-main .contenedor-contacto {
-  background-color: white;
-}
-main .contenedor-contacto h2, main .contenedor-contacto footer div p, footer div main .contenedor-contacto p {
-  color: black;
-}
-main .contenedor-contacto label {
-  color: #262223;
-}
-main .boton-contacto {
-  border: 1px solid #B01B39;
-  background-color: #B01B39;
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  padding: 15px;
-}
-main .input-mensaje {
-  height: 100px;
-}
-main .boton-planificaciones {
-  border: 1px solid #B01B39;
-  background-color: #B01B39;
-  font-family: "Montserrat", sans-serif;
-  color: black; /* pisado por el color del anchor */
-  padding: 15px;
-}
-main .formulario-registro input {
-  background-color: rgba(255, 255, 255, 0.603);
-  border: 1px solid black;
-}
-main .formulario-registro input:hover {
-  transform: scale(1.2);
-}
-main .campus-registro {
-  padding: 10px;
-}
-main .formulario-registro h2, main .formulario-registro footer div p, footer div main .formulario-registro p {
-  background-color: #F54747;
-}
-main .container-registro {
-  background-color: #F54747;
->>>>>>> a1c88b63a9034fe31f919e6eb919342a139c9c61
 }
 
 * {
